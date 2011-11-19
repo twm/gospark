@@ -1,5 +1,6 @@
 // gospark
 // https://github.com/twm/gospark
+// © 2011 Thomas W. Most, MIT license
 //
 // Go implementation of spark, for when you want to replace a 1.6 KiB shell
 // script with a 1.1 MiB statically-linked executable.  This implementation
