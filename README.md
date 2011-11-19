@@ -3,6 +3,12 @@
 
 See? Here's a graph of your productivity gains after using spark: ▁▂▃▅▇
 
+This is a compatible reimplementation of the [original spark][original] in the
+[Go programming language][golang].  Given a functioning Go environment you
+should be able to compile it by tying `make`.
+
+The original README follows.
+
 ## install
 
 spark is a [shell script][bin], so drop it somewhere and make sure it's added
@@ -68,6 +74,8 @@ Sounds like a wiki is a great place to collect all of your
 
 This is a [@holman][holman] joint.
 
+[original]: https://github.com/holman/spark
+[golang]:   http://golang.org/
 [dotfiles]: https://github.com/holman/dotfiles 
 [bin]:      https://github.com/holman/spark/blob/master/spark
 [wiki]:     https://github.com/holman/spark/wiki/Wicked-Cool-Usage
