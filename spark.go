@@ -1,6 +1,6 @@
 // gospark
 // https://github.com/twm/gospark
-// © 2011 Thomas W. Most, MIT license
+// © 2011-2012 Tom Most, MIT license
 //
 // Go implementation of spark, for when you want to replace a 1.6 KiB shell
 // script with a 1.1 MiB statically-linked executable.  This implementation
@@ -12,12 +12,12 @@
 package main
 
 import (
-	"io/ioutil"
 	"flag"
 	"fmt"
+	"io/ioutil"
 	"os"
-	"strings"
 	"strconv"
+	"strings"
 )
 
 var usage = `
@@ -33,7 +33,7 @@ var usage = `
     ▄▆▂█▁
 `
 var help = flag.Bool("h", false, "request help")
-var ticks = [...]string{"▁","▂","▃","▄","▅","▆","▇","█"}
+var ticks = [...]string{"▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"}
 
 // Split s by commas and whitespace, outputting any valid numbers found
 func appendNums(nums []float64, s string) []float64 {
@@ -89,7 +89,7 @@ func main() {
 	if spread < .00000001 {
 		spread = 1
 	}
-	scale := float64(len(ticks) - 1) / spread
+	scale := float64(len(ticks)-1) / spread
 
 	for _, v := range nums {
 		index := (v - min) * scale
