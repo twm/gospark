@@ -39,7 +39,7 @@ var ticks = [...]string{"▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"}
 func appendNums(nums []float64, s string) []float64 {
 	for _, word := range strings.Fields(s) {
 		for _, part := range strings.Split(word, ",") {
-			num, err := strconv.Atof64(part)
+			num, err := strconv.ParseFloat(part, 64)
 			if err == nil {
 				nums = append(nums, float64(num))
 			}

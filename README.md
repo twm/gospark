@@ -5,7 +5,7 @@ See? Here's a graph of your productivity gains after using spark: ▁▂▃▅�
 
 This is a compatible reimplementation of the [original spark][original] in the
 [Go programming language][golang].  Given a functioning Go environment you
-should be able to compile it by tying `make`.
+should be able to compile it by typing `GOPATH=$PWD go build spark`.
 
 The original README follows.
 

@@ -1,7 +1,7 @@
 The MIT License
 
 Copyright © Zach Holman, http://zachholman.com
-Copyright © 2011 Thomas W. Most, http://freecog.net/
+Copyright © 2011-2012 Tom Most, http://freecog.net/
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
