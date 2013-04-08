@@ -4,8 +4,18 @@
 See? Here's a graph of your productivity gains after using spark: ▁▂▃▅▇
 
 This is a compatible reimplementation of the [original spark][original] in the
-[Go programming language][golang].  Given a functioning Go environment you
-should be able to compile it by typing `GOPATH=$PWD go build spark`.
+[Go programming language][golang].  Install it with:
+
+```sh
+› go install github.com/twm/gospark
+```
+
+This will give you a `gospark` command.
+
+To run the tests, compile it by typing `go build -o spark` and then run
+`./test`.  Note that one of the tests fails, likely due to slightly different
+rounding.  As the result is visually indistinguishable I haven't really
+bothered to fix it.
 
 The original README follows.
 
